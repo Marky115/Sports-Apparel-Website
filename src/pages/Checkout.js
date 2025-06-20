@@ -14,7 +14,7 @@ const CheckoutPage = () => {
               <Link className="button-nav" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="button-nav" to="/product">Shop</Link>
+              <Link className="button-nav" to="/shop">Shop</Link>
             </li>
             <li className="nav-item">
               <Link className="button-nav" to="/about">About</Link>

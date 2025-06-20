@@ -83,7 +83,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/jersey3.jpg" alt="Warriors black gold jersey. Link to product page" />
+              <img src="/images/jersey3.jpg" alt="Warriors black gold jersey. Link to product page" />
             
             <p className="shop-spacing">San Francisco Jersey</p>
             <h3>$75.99</h3>
@@ -91,7 +91,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/shirt1.jpg" alt="Male model in Hollingsworth green t-shirt. link to product page." />
+              <img src="/images/shirt1.jpg" alt="Male model in Hollingsworth green t-shirt. link to product page." />
            
             <p className="shop-spacing">Light Grey Shirt</p>
             <h3>$15.99</h3>
@@ -99,7 +99,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/shirt2.jpg" alt="male model in mint blue t-shirt/ link to detailed product page" />
+              <img src="/images/shirt2.jpg" alt="male model in mint blue t-shirt/ link to detailed product page" />
             
             <p className="shop-spacing">Turquoise Shirt</p>
             <h3>$15.99</h3>
@@ -107,7 +107,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/shirt3.jpg" alt="male model in a grey t-shirt. To product page" />
+              <img src="/images/shirt3.jpg" alt="male model in a grey t-shirt. To product page" />
             
             <p className="shop-spacing">Dark Grey Shirt</p>
             <h3>$15.99</h3>
@@ -115,7 +115,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/short1.png" alt="blue and white basketball shorts to detailed product page" />
+              <img src="/images/short1.png" alt="blue and white basketball shorts to detailed product page" />
           
             <p className="shop-spacing">White Short</p>
             <h3>$17.99</h3>
@@ -123,7 +123,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/shorts2.jpg" alt="black basketball shorts with birds to detailed prouduct page" />
+              <img src="/images/shorts2.jpg" alt="black basketball shorts with birds to detailed prouduct page" />
             
             <p className="shop-spacing">Black Short</p>
             <h3>$17.99</h3>
@@ -131,7 +131,7 @@ const ProductPage = () => {
 
           <div className="product-item">
             
-              <img src="images/short4.jpg" alt="white and red basketball shorts with flower to detailed prouduct page" />
+              <img src="/images/short4.jpg" alt="white and red basketball shorts with flower to detailed prouduct page" />
             
             <p className="shop-spacing">Grey Short</p>
             <h3>$17.99</h3>

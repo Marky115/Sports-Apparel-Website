@@ -16,7 +16,6 @@ const ContactPage = () => {
             </li>
             <li className="nav-item">
               <Link className="button-nav" to="/shop">Shop</Link>
-              
             </li>
             <li className="nav-item">
               <Link className="button-nav" to="/about">About</Link>

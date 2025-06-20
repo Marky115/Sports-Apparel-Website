@@ -46,7 +46,7 @@ const HomePage = () => {
           <p>Finds all our new products here!</p>
           <div className="media-scroller">
             <div className="media-element">
-              <Link to="/product">
+              <Link to="/shop">
                 <img
                   src="../images/shoes.jpg"
                   width="385"
@@ -57,7 +57,7 @@ const HomePage = () => {
               <p className="caption">Product 1</p>
             </div>
             <div className="media-element">
-              <Link to="/product">
+              <Link to="/shop">
                 <img
                   src="../images/product3.jpg"
                   width="385"
@@ -68,7 +68,7 @@ const HomePage = () => {
               <p className="caption">Product 2</p>
             </div>
             <div className="media-element">
-              <Link to="/product">
+              <Link to="/shop">
                 <img
                   src="../images/product4.jpg"
                   width="385"
@@ -79,7 +79,7 @@ const HomePage = () => {
               <p className="caption">Product 3</p>
             </div>
             <div className="media-element">
-              <Link to="/product">
+              <Link to="/shop">
                 <img
                   src="../images/product5.jpg"
                   width="385"
@@ -90,7 +90,7 @@ const HomePage = () => {
               <p className="caption">Product 4</p>
             </div>
             <div className="media-element">
-              <Link to="/product">
+              <Link to="/shop">
                 <img
                   src="../images/shoes.jpg"
                   width="385"
