@@ -119,10 +119,7 @@ const CheckoutPage = () => {
             </div>
           </form>
 
-          {/* Confirmation button */}
-          <form action="Confirmation.html" method="post">
-            <input type="submit" value="Order" className="submit-btn2" />
-          </form>
+           <button class="submit-btn2">Submit</button>
         </div>
       </section>     
       <Footer/>

@@ -71,42 +71,6 @@ const ProductPage = () => {
 
             <button class="filter-button">Apply Filters</button>
           </div>
-        {/* <div className="product-sidebar">
-          <div className="filter-links">
-            <h2>Shop/All Products</h2>
-
-            <label htmlFor="sizes"> Sizes</label>
-            <select id="sizes" name="sizes">
-              <option value="small"> Small </option>
-              <option value="medium"> Medium </option>
-              <option value="large"> Large </option>
-            </select>
-
-            <label htmlFor="colors"> Colors</label>
-            <select id="colors" name="colors">
-              <option value="white"> White </option>
-              <option value="black"> Black </option>
-              <option value="blue"> Blue </option>
-              <option value="grey"> Grey </option>
-            </select>
-
-            <label htmlFor="sort"> Sort</label>
-            <select id="sort" name="sort">
-              <option value="Sort by Newest"> Sort by Newest </option>
-              <option value="Sort by Oldest"> Sort by Oldest </option>
-              <option value="Sort by Bestselling"> Sort by Cheapest</option>
-            </select>
-
-            <label htmlFor="categories"> Categories</label>
-            <select id="categories" name="categories">
-              <option value="shorts"> Shorts </option>
-              <option value="jerseys"> Jerseys </option>
-              <option value="shirts"> Shirts </option>
-            </select>
-
-             <button className="filter-butn">Apply Filters</button>
-          </div>
-        </div> */}
 
         <div className="product-item-grid">
           <div className="product-item">
