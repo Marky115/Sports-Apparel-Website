@@ -1,8 +1,6 @@
 /* Main css elements that remain constant in all html pages */
-p{
-    
-font-family: "Montserrat"; 
-  
+*{
+  font-family: "Inter", sans-serif;
 }
 
 input:hover{
@@ -21,19 +19,6 @@ textarea:hover{
   background-color: #efeded;
 }
 
-
-
-h1{
-  
-  
-  font-family: "Teko"; 
-  
- 
-}
-
-h2{
-  font-family: "Teko"; 
-}
 
 img{
   width: 18.75rem;
