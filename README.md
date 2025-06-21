@@ -2,4 +2,10 @@
 
 Website: https://marky115.github.io/Sports-Apparel-Website/
 
-This academic project, is a static sports apparel website to showcase and promote sports clothing and accessories without the need for server-side processing. Built using JSX in React.js
+This academic project, PeakPerformance is a modern, responsive e-commerce checkout application built with React, featuring a clean and intuitive user interface for purchasing sports jerseys. This is a static website.
+
+**Technologies Used**
+**Frontend:** React.js
+**Styling:** CSS3 with Flexbox and Grid layouts
+**Build Tool**: VS Code, GitHub
+**Routing:** React Router (for navigation)
