@@ -62,9 +62,9 @@ const ContactPage = () => {
             <textarea name="message" id="message" className="commentArea"></textarea>
           </section>
 
-          <form>
-            <input type="submit" value="Send Message" className="submit-btn" />
-          </form>
+          <Link to="/">
+            <button className="submit-btn">Submit</button>
+          </Link>
         </div>
       </section>
 
