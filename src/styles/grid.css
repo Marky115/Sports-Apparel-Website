@@ -546,18 +546,20 @@ form {
 }
 
 .product-info {
-  flex-shrink: 0;
+    position:relative;
+    left: 100px;
 }
 
 .checkout-img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 8px;
 }
 
 .price-info {
-  flex: 1;
+  position:relative;
+  left:100px;
 }
 
 .carth {
