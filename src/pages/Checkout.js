@@ -1,10 +1,24 @@
 
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
-
+import { useState } from 'react';
 
 
 const CheckoutPage = () => {
+
+  // Keep track of how many of each item we want to buy
+  const [quantity1, setQuantity1] = useState(1);
+  const [quantity2, setQuantity2] = useState(1);
+
+  // Prices for each product
+  const price1 = 75.99; // Phoenix Suns Jersey price
+  const price2 = 17.99; // Miami Jersey price
+
+  // Calculate total price
+  const total1 = price1 * quantity1;
+  const total2 = price2 * quantity2;
+  const subtotal = total1 + total2;
+
   return (
     <>
       {/* NAVIGATION SECTION */}
@@ -44,10 +58,17 @@ const CheckoutPage = () => {
             </div>
             <div className="price-info">
               <h2 className="carth">Phoenix Suns Jersey</h2>
-              <p className="cartp">Qt1 - $75.99</p>
-              <label htmlFor="quantity">
+              <p className="cartp">Qt{quantity1} - ${total1.toFixed(2)}</p>
+              <label htmlFor="quantity1">
                 Quantity:
-                <input type="number" id="quantity" name="quantity" defaultValue="1" />
+                <input 
+                  type="number" 
+                  id="quantity1" 
+                  name="quantity1" 
+                  value={quantity1}
+                  min="1"
+                  onChange={(e) => setQuantity1(Number(e.target.value))}
+                />
               </label>
             </div>
           </div>
@@ -63,17 +84,24 @@ const CheckoutPage = () => {
             </div>
             <div className="price-info">
               <h2 className="carth">Miami Jersey</h2>
-              <p className="cartp">Qt1 - $17.99</p>
+              <p className="cartp">Qt{quantity2} - ${total2.toFixed(2)}</p>
               <label htmlFor="quantity2">
                 Quantity:
-                <input type="number" id="quantity2" name="quantity2" defaultValue="1" />
+                <input 
+                  type="number" 
+                  id="quantity2" 
+                  name="quantity2" 
+                  value={quantity2}
+                  min="1"
+                  onChange={(e) => setQuantity2(Number(e.target.value))}
+                />
               </label>
             </div>
           </div>
 
-          <div className="subprice">
+           <div className="subprice">
             <h2>Subtotal:</h2>
-            <h2>$93.98</h2>
+            <h2>${subtotal.toFixed(2)}</h2>
           </div>
 
           <div className="form-h2">
