@@ -32,50 +32,40 @@ const ContactPage = () => {
         <section className="spacing">
           <h1>Need help?</h1>
           <p className="contact">
-            Here at PeakAtheletics we value clarity and honesty over everything. Any specific inquiries can be directed
-            to us here and we will respond within 1-2 business days. We will ask you for some basic information mainly
-            to do with how to reach you and your topic of interest.
+            Here at PeakAtheletics we value clarity and honesty over everything...
           </p>
         </section>
 
-        <section className="contact-form-spacing">
-          <label htmlFor="topic">Topic:</label>
-        </section>
-        <section className="contact-form-spacing">
-          <input type="text" id="topic" name="topic_input" className="inputForm" />
-        </section>
+        <div className="form-container">
+          <section className="contact-form-spacing">
+            <label htmlFor="topic">Topic:</label>
+            <input type="text" id="topic" name="topic_input" className="inputForm" />
+          </section>
 
-        <section className="contact-form-spacing">
-          <label htmlFor="firstname">First Name:</label>
-        </section>
-        <section className="contact-form-spacing">
-          <input type="text" id="firstname" name="first_name" className="inputForm" />
-        </section>
+          <section className="contact-form-spacing">
+            <label htmlFor="firstname">First Name:</label>
+            <input type="text" id="firstname" name="first_name" className="inputForm" />
+          </section>
 
-        <section className="contact-form-spacing">
-          <label htmlFor="lastname">Last Name:</label>
-        </section>
-        <section className="contact-form-spacing">
-          <input type="text" id="lastname" name="last_name" className="inputForm" />
-        </section>
+          <section className="contact-form-spacing">
+            <label htmlFor="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="last_name" className="inputForm" />
+          </section>
 
-        <section className="contact-form-spacing">
-          <label htmlFor="email">Email:</label>
-        </section>
-        <section className="contact-form-email">
-          <input type="text" id="email" name="email" className="inputForm" />
-        </section>
+          <section className="contact-form-email">
+            <label htmlFor="email">Email:</label>
+            <input type="text" id="email" name="email" className="inputForm" />
+          </section>
 
-        <section className="contact-form-spacing">
-          <label htmlFor="message">Message:</label>
-        </section>
-        <section className="contact-form-message">
-          <textarea name="message" id="message" className="commentArea"></textarea>
-        </section>
+          <section className="contact-form-message">
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" id="message" className="commentArea"></textarea>
+          </section>
 
-        <form>
-          <input type="submit" value="Send Message" className="submit-btn" />
-        </form>
+          <form>
+            <input type="submit" value="Send Message" className="submit-btn" />
+          </form>
+        </div>
       </section>
 
      
