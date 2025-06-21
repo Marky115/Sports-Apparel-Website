@@ -7,6 +7,7 @@ import ProductPage from './pages/ProductPage';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Checkout from './pages/Checkout';
+import Confirmation from './pages/Confirmation'; 
 
 import './styles/main.css';
 import './styles/grid.css';
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/confirmation" element={<Confirmation />} />
       </Routes>
     </Router>
   );
