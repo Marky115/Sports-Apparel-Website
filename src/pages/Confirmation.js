@@ -70,7 +70,7 @@ const Confirmation = () => {
 
                 <div className="action-buttons">
                     <Link to="/shop">
-                        <button className="back-butn">Continue Shopping</button>
+                        <button className="submit-btn">Continue Shopping</button>
                     </Link>
                 </div>
             </section>
