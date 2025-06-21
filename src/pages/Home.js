@@ -36,7 +36,7 @@ const HomePage = () => {
         {/* CONTENT SECTION */}
         <section id="banner" className="banner">
           <img
-            src="../images/banner.jpg"
+            src={`${process.env.PUBLIC_URL}/images/banner.jpg`}
             alt="Home page banner of basketball athlete Zion Williamson going for a dunk"
           />
         </section>
@@ -48,7 +48,7 @@ const HomePage = () => {
             <div className="media-element">
               <Link to="/shop">
                 <img
-                  src="../images/shoes.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/shoes.jpg `}
                   width="385"
                   height="188"
                   alt="Stephen Curry 8s grey color way over gold background"
@@ -59,7 +59,7 @@ const HomePage = () => {
             <div className="media-element">
               <Link to="/shop">
                 <img
-                  src="../images/product3.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/product3.jpg`}
                   width="385"
                   height="188"
                   alt="Stephen Curry 8s blue colorway over gold blue background"
@@ -70,7 +70,7 @@ const HomePage = () => {
             <div className="media-element">
               <Link to="/shop">
                 <img
-                  src="../images/product4.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/product4.jpg`}
                   width="385"
                   height="188"
                   alt="Stephen Curry 8s black color way over pinkish purple background"
@@ -81,7 +81,7 @@ const HomePage = () => {
             <div className="media-element">
               <Link to="/shop">
                 <img
-                  src="../images/product5.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/product5.jpg`}
                   width="385"
                   height="188"
                   alt="Stephen Curry 8s black and orange colorway over yellowish orange background"
@@ -92,7 +92,7 @@ const HomePage = () => {
             <div className="media-element">
               <Link to="/shop">
                 <img
-                  src="../images/shoes.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/shoes.jpg`}
                   width="385"
                   height="188"
                   alt="Stephen Curry 8s grey color way over gold background"
@@ -112,7 +112,7 @@ const HomePage = () => {
           muted
           aria-describedby="videoDesc"
         >
-          <source src="../images/curryvideo.mp4" type="video/mp4" />
+          <source src={`${process.env.PUBLIC_URL}/images/curryvideo.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
@@ -124,7 +124,7 @@ const HomePage = () => {
             <div className="item-info">
               <Link to="/shop">
                 <img
-                  src="../images/shoes.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/shoes.jpg `}
                   alt="Stephen Curry grey shoes over gold background"
                 />
               </Link>
@@ -138,7 +138,7 @@ const HomePage = () => {
             <div className="item-info">
               <Link to="/shop">
                 <img
-                  src="../images/jerseys.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/jerseys.jpg `}
                   alt="Golden State warriors 2022 city edition jerseys over grey background"
                 />
               </Link>
@@ -152,7 +152,7 @@ const HomePage = () => {
             <div className="item-info">
               <Link to="/shop">
                 <img
-                  src="../images/short1Home.png"
+                  src={`${process.env.PUBLIC_URL}/images/short1Home.png`}
                   alt="White and blue floral basketball shorts over grey background"
                 />
               </Link>

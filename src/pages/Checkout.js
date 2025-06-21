@@ -2,6 +2,8 @@
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
+
+
 const CheckoutPage = () => {
   return (
     <>
@@ -33,7 +35,7 @@ const CheckoutPage = () => {
         <div className="cart-products">
           <div className="product-info">
             <img
-              src="../images/jersey1.jpg"
+              src={`${process.env.PUBLIC_URL}/images/jersey1.jpg`}
               alt="Phoenix Suns jersey over grey background"
               className="checkout-img"
             />
@@ -52,7 +54,7 @@ const CheckoutPage = () => {
         <div className="cart-products">
           <div className="product-info">
             <img
-              src="../images/jersey2.jpg"
+              src={`${process.env.PUBLIC_URL}/images/jersey2.jpg`}
               alt="white and blue floral sport pants"
               className="checkout-img"
             />
@@ -78,6 +80,11 @@ const CheckoutPage = () => {
           </div>
 
           <form action="#" method="post">
+            <label htmlFor="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" className="checkout-input" required />
+            <label htmlFor="last-name">Last Name:</label> 
+            <input type="text" id="last-name" name="last-name" className="checkout-input" required />
+
             <label htmlFor="email">Email:</label>
             <input type="text" id="email" name="email" className="checkout-input" required />
             <label htmlFor="shopping-address">Shipping Address:</label>

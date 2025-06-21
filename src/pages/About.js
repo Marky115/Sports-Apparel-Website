@@ -39,20 +39,16 @@ const About = () => {
         </div>
 
         <div className="about-image">
-          <img src="../images/aboutUS.jpg" alt="Basketball player paul george going up for a dunk" />
+          <img src={`${process.env.PUBLIC_URL}/images/aboutUS.jpg `} alt="Basketball player paul george going up for a dunk" />
         </div>
       </section>
 
       <section id="company-Detail" className="about-info">
         <h1>What We Do</h1>
         <div className="info-image">
-          <img src="../images/about.jpg" alt="Basketball player paul george going up for a dunk" />
+          <img src={`${process.env.PUBLIC_URL}/images/about.jpg `} alt="Basketball player paul george going up for a dunk" />
         </div>
         
-        <div className="about-image2">
-          <img src="../images/about2.jpg" alt="Colorful basketball court bird eye's view" />
-        </div>
-
         <div className="about-detail-info">
           <p>
             Elevate your basketball game with our website's premium collection of top-quality basketball shoes. 

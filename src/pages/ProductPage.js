@@ -73,72 +73,76 @@ const ProductPage = () => {
           </div>
 
         <div className="product-item-grid">
+          
           <div className="product-item">
-              <img src="images/jersey1.jpg" alt="Pheonix Suns jersey front and back over purple background" />
+              <Link to="/checkout">
+                <img src={`${process.env.PUBLIC_URL}/images/jersey1.jpg `} alt="Pheonix Suns jersey front and back over purple background" />
+              </Link>
             <p className="shop-spacing">Phoenix Jersey</p>
             <h3>$75.99</h3>
           </div>
+          
 
           <div className="product-item">
-            
-              <img src="images/jersey2.jpg" alt="Miami Heat black jersey, shorts on grey. Link to product page." />
-           
+              <Link to="/checkout">
+                <img src={`${process.env.PUBLIC_URL}/images/jersey2.jpg `} alt="Miami Heat black jersey, shorts on grey. Link to product page." />
+              </Link>
             <p className="shop-spacing">Miami Jersey</p>
             <h3>$75.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/jersey3.jpg" alt="Warriors black gold jersey. Link to product page" />
-            
+              <Link to="/checkout"> 
+                <img src={`${process.env.PUBLIC_URL}/images/jersey3.jpg `} alt="Warriors black gold jersey. Link to product page" />
+              </Link>
             <p className="shop-spacing">San Francisco Jersey</p>
             <h3>$75.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/shirt1.jpg" alt="Male model in Hollingsworth green t-shirt. link to product page." />
-           
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/shirt1.jpg `} alt="Male model in Hollingsworth green t-shirt. link to product page." />
+              </Link>
             <p className="shop-spacing">Light Grey Shirt</p>
             <h3>$15.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/shirt2.jpg" alt="male model in mint blue t-shirt/ link to detailed product page" />
-            
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/shirt2.jpg `} alt="male model in mint blue t-shirt/ link to detailed product page" />
+              </Link>
             <p className="shop-spacing">Turquoise Shirt</p>
             <h3>$15.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/shirt3.jpg" alt="male model in a grey t-shirt. To product page" />
-            
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/shirt3.jpg `} alt="male model in a grey t-shirt. To product page" />
+              </Link>
             <p className="shop-spacing">Dark Grey Shirt</p>
             <h3>$15.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/short1.png" alt="blue and white basketball shorts to detailed product page" />
-          
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/short1.png `} alt="blue and white basketball shorts to detailed product page" />
+              </Link>
             <p className="shop-spacing">White Short</p>
             <h3>$17.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/shorts2.jpg" alt="black basketball shorts with birds to detailed prouduct page" />
-            
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/shorts2.jpg `} alt="black basketball shorts with birds to detailed prouduct page" />
+              </Link>
             <p className="shop-spacing">Black Short</p>
             <h3>$17.99</h3>
           </div>
 
           <div className="product-item">
-            
-              <img src="/images/short4.jpg" alt="white and red basketball shorts with flower to detailed prouduct page" />
-            
+              <Link to="/checkout">
+              <img src={`${process.env.PUBLIC_URL}/images/short4.jpg `} alt="white and red basketball shorts with flower to detailed prouduct page" />
+              </Link>
             <p className="shop-spacing">Grey Short</p>
             <h3>$17.99</h3>
           </div>
